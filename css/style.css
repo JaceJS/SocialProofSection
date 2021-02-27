@@ -1,0 +1,161 @@
+:root{
+    --Very-dark-magenta: #502050;
+    --Soft-pink: #ee68a4;
+    --Dark-Grayish-Magenta: #937b92;
+    --Light-Grayish-Magenta: #f7f2f7;
+    --White: #ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* background style */
+.bg-pattern .bg-top,
+.bg-pattern .bg-bottom{
+    position: absolute;
+}
+
+.bg-top{
+    top: 0;
+    left: -210px;
+}
+
+.bg-bottom{
+    bottom: 0;
+    right: 0;
+}
+
+main{
+    position: relative;
+    padding: 5rem 1.5rem;  
+    overflow: hidden;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container{
+    max-width: 70rem;
+}
+
+/* header */
+.title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.title > h1{
+    color: var(--Very-dark-magenta);
+    margin-bottom: 1.5rem;
+    line-height: .95;
+    max-width: 27.9rem;
+    font-size: 2.5rem;
+}
+
+.title > p{
+    font-size: .9rem;
+    color: var(--Dark-Grayish-Magenta);
+    line-height: 1.75;
+    font-weight: 500;
+    max-width: 28rem;
+}
+
+/* rating */
+.rating-wrapper{  
+    margin-bottom: 3rem;  
+    text-align: center;
+}
+
+.rating{
+    background-color: var(--Light-Grayish-Magenta);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 27.8rem;
+    border-radius: 5px;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rating-box > p{
+    color: var(--Very-dark-magenta);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+/* footer */
+.customer{
+    background-color: var(--Very-dark-magenta);
+    border-radius: 5px;    
+    padding: 2.5em 2em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    max-width: 22rem;
+    max-height: 14.75rem;
+    overflow: hidden;
+}
+
+.customer img{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+
+.customer-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.75rem;
+}
+
+.data{
+    margin-left: 1.25rem;
+}
+
+.customer .data > h3{
+    color: var(--White);
+    font-size: .8rem;
+    padding-bottom: .4em;
+}
+
+.customer .data > h4{
+    color: var(--Soft-pink);
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+.customer > p{
+    color: var(--White);
+    line-height: 1.75;
+    font-size: .81rem;
+}
+
+
+/* footer site */
+.footer-site {
+    text-align: center;
+    font-size: .9rem;
+}
+
+.footer-site a {
+    color: hsl(228, 45%, 44%);
+}
+
+

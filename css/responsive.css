@@ -1,0 +1,74 @@
+@media screen and (min-width: 40em){
+    main{
+        height: 100vh;
+    }
+
+    .container{
+        position: absolute;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* title */
+    .title{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        margin-bottom: 0;
+        grid-area: title;
+    }
+
+    /* rating */
+    .rating-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 34rem;
+        height: 12.5rem;
+    }
+
+    .rating-box{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        width: 27.75rem;
+        height: 3.3rem;
+    }
+
+    .rating-box .stars, .rating-box > p{
+        margin-left: 8%;
+    }
+
+    .rating-1{
+        align-self: flex-start;
+    }
+
+    .rating-3{
+        align-self: flex-end;
+    }
+
+    /* customer */
+    .customer-wrapper{
+        display: flex;    
+        margin-top: 4.875rem;  
+    }
+
+    .customer-1{
+        margin-top: 0;
+        margin-right: 2rem;
+    }
+
+    .customer-2{
+        margin-top: 1.5%;
+    }
+
+    .customer-3{
+        margin-top: 3%;
+        margin-left: 2rem;        
+    }
+}
